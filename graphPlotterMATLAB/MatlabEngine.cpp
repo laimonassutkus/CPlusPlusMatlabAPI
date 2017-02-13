@@ -20,7 +20,6 @@ Engine * MatlabEngine::getEngine()
 			throw new std::domain_error("Failed to open Matlab engine !");
 
 	return engine;
-	return nullptr;
 }
 
 void MatlabEngine::closeEngine()
